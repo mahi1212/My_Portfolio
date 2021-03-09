@@ -1,0 +1,103 @@
+   /* For Desktop */
+   .col-1 {width: 8.33%;}
+   .col-2 {width: 16.66%;}
+   .col-3 {width: 25%;}
+   .col-4 {width: 33.33%;}
+   .col-5 {width: 41.46%;}
+   .col-6 {width: 50%;}
+   .col-7 {width: 58.33%;}
+   .col-8 {width: 36.66%;}
+   .col-9 {width: 75%;}
+   .col-10 {width: 83.33%;}
+   .col-11 {width: 91.66%;}
+   .col-12 {width: 100%;}
+   
+/*navbar design starts here*/
+   .nav-logo{
+       text-align: left;
+   }
+
+   .nev-heading{
+       text-align: right;
+   }
+
+   .navbar-menu{
+       flex-direction: row;
+       justify-content: flex-end;
+   }
+
+   .navbar-menu a{
+       padding: 32px 10px;
+       background-color: transparent;
+   }
+/*navbar design ends here*/
+
+/*profile design starts here*/
+
+.profile .top-weather{
+    position: absolute;
+    right: 100px;
+    width:100px;
+    transition:width 0.1s transform 2s;
+}
+
+.profile .top-weather:hover{
+    width: 130px;
+}
+
+.profile p{
+    color: rgb(14, 143, 194);
+    margin: 0 auto ;
+    text-align: center;
+    width: 50%;
+}
+
+
+.profile .bottom-weather{
+    position: absolute;
+    bottom: 10px;
+    left: 80px;
+    width:100px;
+    transition:width 0.1s transform 1s;
+}
+
+.profile .botttom-weather:hover{
+    width:130px;
+}
+
+.profile::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+/*profile design ends here*/
+
+/*About me starts hare*/
+
+.about-me-img{
+    height: 100vh;
+    margin-top: 200px;
+}
+
+.about-me-img img{
+    height: 250px;
+    width: 220px;
+}
+
+h3{
+    color: rgb(15, 226, 181);
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/*About me ends hare*/
+
+/*Footer starts ends here */
+
+.footer-desc{
+    margin-top: 12;
+    height: 182px;
+}
+
+/*Footer contact ends here */
